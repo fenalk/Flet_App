@@ -1,3 +1,3 @@
 # Flet_App
 
-Um Sistema de Cadastro que utiliza a biblioteca Flet. Inclui funcionalidades para validar o cadastro e confirmações antes antes de serem salvos aos banco de dados, assim como sua edição e exclusão dos registros de usuários. As informações de tentativa de entrada com login e senha incorretos ou não cadastrados, tanto quanto a exclusão serão registradas em um arquivo log. 
+Um Sistema de Cadastro que utiliza a biblioteca Flet. O sistema inclui funcionalidades para validação de cadastros e confirmação antes de salvar os dados no banco de dados, além de permitir a edição e exclusão de registros de usuários. As informações de tentativas de login com credenciais incorretas ou não cadastradas, bem como as exclusões, são registradas em um arquivo de log.
