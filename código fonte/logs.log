@@ -13,56 +13,13 @@ INFO: 17/10/24 16:52:28: New session created (1 total): _5tm0hXXlbCO9oRwG_9eb786
 INFO: 17/10/24 16:52:28: Start session: 5tm0hXXlbCO9oRwG
 ERROR: 17/10/24 16:53:13: Future exception was never retrieved
 future: <Future finished exception=AssertionError('DataTable Control must be added to the page first')>
-Traceback (most recent call last):
-  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
-    result = self.fn(*self.args, **self.kwargs)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/fernanda/first-flet-app/ProjetFlet/trabalho/.venv/lib/python3.12/site-packages/flet_core/page.py", line 944, in wrapper
-    handler(*args)
-  File "/home/fernanda/first-flet-app/ProjetFlet/trabalho/código fonte/tela_cadastro.py", line 185, in cadastrar
-    carregar_tabela()  # Agora chamando a função diretamente
-    ^^^^^^^^^^^^^^^^^
-  File "/home/fernanda/first-flet-app/ProjetFlet/trabalho/código fonte/tela_tabela.py", line 83, in carregar_tabela
-    componentes['tabela'].current.update()  # Atualiza a tabela
-    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/fernanda/first-flet-app/ProjetFlet/trabalho/.venv/lib/python3.12/site-packages/flet_core/control.py", line 308, in update
-    self.__page
 AssertionError: DataTable Control must be added to the page first
 INFO: 17/10/24 16:53:31: Login falhou. Usuário não cadastrado!
 INFO: 17/10/24 16:53:40: Login bem-sucedido: Login='flet_v1'
 ERROR: 17/10/24 16:54:34: Future exception was never retrieved
-future: <Future finished exception=AssertionError('DataTable Control must be added to the page first')>
-Traceback (most recent call last):
-  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
-    result = self.fn(*self.args, **self.kwargs)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/fernanda/first-flet-app/ProjetFlet/trabalho/.venv/lib/python3.12/site-packages/flet_core/page.py", line 944, in wrapper
-    handler(*args)
-  File "/home/fernanda/first-flet-app/ProjetFlet/trabalho/código fonte/tela_cadastro.py", line 185, in cadastrar
-    carregar_tabela()  # Agora chamando a função diretamente
-    ^^^^^^^^^^^^^^^^^
-  File "/home/fernanda/first-flet-app/ProjetFlet/trabalho/código fonte/tela_tabela.py", line 83, in carregar_tabela
-    componentes['tabela'].current.update()  # Atualiza a tabela
-    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/fernanda/first-flet-app/ProjetFlet/trabalho/.venv/lib/python3.12/site-packages/flet_core/control.py", line 308, in update
-    self.__page
 AssertionError: DataTable Control must be added to the page first
 ERROR: 17/10/24 16:55:24: Future exception was never retrieved
 future: <Future finished exception=AssertionError('DataTable Control must be added to the page first')>
-Traceback (most recent call last):
-  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
-    result = self.fn(*self.args, **self.kwargs)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/fernanda/first-flet-app/ProjetFlet/trabalho/.venv/lib/python3.12/site-packages/flet_core/page.py", line 944, in wrapper
-    handler(*args)
-  File "/home/fernanda/first-flet-app/ProjetFlet/trabalho/código fonte/tela_cadastro.py", line 185, in cadastrar
-    carregar_tabela()  # Agora chamando a função diretamente
-    ^^^^^^^^^^^^^^^^^
-  File "/home/fernanda/first-flet-app/ProjetFlet/trabalho/código fonte/tela_tabela.py", line 83, in carregar_tabela
-    componentes['tabela'].current.update()  # Atualiza a tabela
-    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/fernanda/first-flet-app/ProjetFlet/trabalho/.venv/lib/python3.12/site-packages/flet_core/control.py", line 308, in update
-    self.__page
 AssertionError: DataTable Control must be added to the page first
 INFO: 17/10/24 16:55:38: Login bem-sucedido: Login='flet_v3'
 INFO: 17/10/24 16:55:52: Usuário de Nome: flet flet, login: (flet_v2) foi excluído.
