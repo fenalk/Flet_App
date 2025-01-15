@@ -5,3 +5,44 @@ INFO: 14/01/25 22:37:25: App URL: tcp://localhost:50533
 INFO: 14/01/25 22:37:25: Starting Flet View app...
 INFO: 14/01/25 22:37:25: Flet View found in: C:\Users\fenal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flet\bin\flet\flet.exe
 INFO: 14/01/25 22:37:28: App session started
+INFO: 14/01/25 22:52:31: Login falhou. Usuário não cadastrado!
+INFO: 14/01/25 22:53:05: Login falhou. Usuário não cadastrado!
+ERROR: 14/01/25 22:53:36: Future exception was never retrieved
+future: <Future finished exception=AssertionError('DataTable Control must be added to the page first')>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fenal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flet_core\page.py", line 944, in wrapper
+    handler(*args)
+  File "c:\Users\fenal\OneDrive\Documentos\ESTUDOS\Flet_App\código fonte\tela_cadastro.py", line 185, in cadastrar
+    carregar_tabela()  # Agora chamando a função diretamente
+    ^^^^^^^^^^^^^^^^^
+  File "c:\Users\fenal\OneDrive\Documentos\ESTUDOS\Flet_App\código fonte\tela_tabela.py", line 83, in carregar_tabela
+    componentes['tabela'].current.update()  # Atualiza a tabela
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fenal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flet_core\control.py", line 308, in update
+    self.__page
+AssertionError: DataTable Control must be added to the page first
+INFO: 14/01/25 22:53:51: Login bem-sucedido: Login='flet@flet'
+INFO: 14/01/25 22:54:04: Usuário de Nome: fletflet, login: (flet@flet) foi excluído.
+INFO: 14/01/25 22:54:14: Login falhou. Usuário não cadastrado!
+ERROR: 14/01/25 22:54:55: Future exception was never retrieved
+future: <Future finished exception=AssertionError('DataTable Control must be added to the page first')>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fenal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flet_core\page.py", line 944, in wrapper
+    handler(*args)
+  File "c:\Users\fenal\OneDrive\Documentos\ESTUDOS\Flet_App\código fonte\tela_cadastro.py", line 185, in cadastrar
+    carregar_tabela()  # Agora chamando a função diretamente
+    ^^^^^^^^^^^^^^^^^
+  File "c:\Users\fenal\OneDrive\Documentos\ESTUDOS\Flet_App\código fonte\tela_tabela.py", line 83, in carregar_tabela
+    componentes['tabela'].current.update()  # Atualiza a tabela
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fenal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flet_core\control.py", line 308, in update
+    self.__page
+AssertionError: DataTable Control must be added to the page first
+INFO: 14/01/25 22:55:05: Login bem-sucedido: Login='flet@flet'
+INFO: 14/01/25 22:57:27: Login bem-sucedido: Login='flet@flet'
