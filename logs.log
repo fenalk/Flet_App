@@ -1,0 +1,7 @@
+INFO: 14/01/25 22:37:25: Assets path configured: C:\Users\fenal\OneDrive\Documentos\ESTUDOS\Flet_App\código fonte\assets
+INFO: 14/01/25 22:37:25: Starting up TCP server on localhost:50533
+INFO: 14/01/25 22:37:25: Flet app has started...
+INFO: 14/01/25 22:37:25: App URL: tcp://localhost:50533
+INFO: 14/01/25 22:37:25: Starting Flet View app...
+INFO: 14/01/25 22:37:25: Flet View found in: C:\Users\fenal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flet\bin\flet\flet.exe
+INFO: 14/01/25 22:37:28: App session started
